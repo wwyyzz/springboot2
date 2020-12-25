@@ -3,6 +3,7 @@ package com.wj.boot.config;
 import com.wj.boot.bean.Pet;
 import com.wj.boot.bean.User;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -19,4 +20,5 @@ public class MyConfig {
     public Pet tomcat() {
         return new Pet("tomcat");
     }
+
 }

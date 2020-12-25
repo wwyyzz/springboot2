@@ -12,9 +12,9 @@ public class MainApplication {
 
         String[] names = run.getBeanDefinitionNames();
 
-        for (String name : names) {
-            System.out.println(name);
-        }
+//        for (String name : names) {
+//            System.out.println(name);
+//        }
 
         boolean tom = run.containsBean("tom");
         System.out.println("container Tom : " + tom);
