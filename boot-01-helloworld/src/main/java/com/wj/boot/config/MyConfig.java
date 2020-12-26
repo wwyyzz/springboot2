@@ -16,9 +16,9 @@ public class MyConfig {
         return new User("zhangsan", 18);
     }
 
-    @Bean("tom")
-    public Pet tomcat() {
-        return new Pet("tomcat");
-    }
+//    @Bean("tom")
+//    public Pet tomcat() {
+//        return new Pet("tomcat");
+//    }
 
 }

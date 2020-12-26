@@ -15,11 +15,11 @@ public class MainApplication {
 //        for (String name : names) {
 //            System.out.println(name);
 //        }
-
-        boolean tom = run.containsBean("tom");
-        System.out.println("container Tom : " + tom);
-
-        boolean user01 = run.containsBean("user01");
-        System.out.println("container user01 : " + user01);
+//
+//        boolean tom = run.containsBean("tom");
+//        System.out.println("container Tom : " + tom);
+//
+//        boolean user01 = run.containsBean("user01");
+//        System.out.println("container user01 : " + user01);
     }
 }

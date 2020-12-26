@@ -1,0 +1,31 @@
+person:
+  userName: zhangsan
+  boss: true
+  birth: 2019/12/9
+  age: 18
+  interests:
+    - baseketball
+    - football
+  animal: [cat,dog,fish]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english: 80,math: 90}
+  salarys:
+    - 9999.98
+    - 9999.99
+  pet:
+    name: gou
+    weight: 99.99
+  allPets:
+    sick:
+      - {name: gou,weight: 99.99}
+      - name: mao
+        weight: 88.99
+      - name: chong
+        weight: 77.77
+    health:
+      - {name: hua,weight: 199.99}
+      - name: ming
+        weight: 188.99
+
