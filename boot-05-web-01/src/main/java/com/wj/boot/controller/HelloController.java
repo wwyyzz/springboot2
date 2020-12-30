@@ -1,6 +1,7 @@
 package com.wj.boot.controller;
 
 
+import com.wj.boot.bean.person;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
@@ -10,6 +11,16 @@ import java.util.Map;
 
 @RestController
 public class HelloController {
+
+    @GetMapping("/person")
+    @ResponseBody
+    public person getPerson() {
+        person person1 = new person();
+        person1.setName("Tom");
+        person1.setAge(18);
+
+        return person1;
+    }
 
 
     @GetMapping("/car/{id}/owner/{username}")
