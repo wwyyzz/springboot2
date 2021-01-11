@@ -10,8 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>boot-01-helloworld</module>
-        <module>boot-05-web-02</module>
-        <module>boot-05-web-02</module>
+        <module>amqp-demo</module>
     </modules>
 
     <parent>
